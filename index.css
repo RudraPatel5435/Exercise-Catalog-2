@@ -10,8 +10,7 @@ header {
 .logo img {
     width: 300px;
     border-radius: 20px;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 40px;
 }
 .right {
     display: flex;
@@ -24,6 +23,7 @@ header {
     color: rgb(191, 191, 191);
     margin: 0 15px;
     font-family: poppins;
+    margin-right: 40px
 }
 .right a:hover {
     border-bottom: 0.5mm solid rgb(100, 100, 100);
