@@ -52,18 +52,6 @@ body {
         scale: 1;
     }
 }
-.second1b,.second1t,.second2b,.second2t,.second3b,.second3t,.second4b,.second4t {
-    animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 27%;
-    color:black;
-    text-align: center;
-    font-size: 30px;
-}
-h3 {
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-}
 .first {
     width: 100%;
     height: 90%;
@@ -85,6 +73,27 @@ h3 {
 .firstr img{
     width: 550px;
     border-radius: 30px;
+}
+@font-face {
+    font-family: "Gowun Batang";
+    src: url(Font/GowunBatang-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: "Gowun Batang Bold";
+    src: url(Font/GowunBatang-Bold.ttf) format('truetype');
+}
+.second1b,.second1t,.second2b,.second2t,.second3b,.second3t,.second4b,.second4t {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 27%;
+    color:black;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Gowun Batang Bold";
+}
+h3 {
+    font-size: 30px;
+    font-family: "Gowan Batang Bold";
 }
 .secondt, .secondb {
     margin: 0, auto;
