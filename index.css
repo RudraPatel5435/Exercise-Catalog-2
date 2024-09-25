@@ -14,6 +14,10 @@
     font-family: "Playfair";
     src: url(Font/PlayfairDisplay-VariableFont_wght.ttf) format('truetype');
 }
+@font-face {
+    font-family: "Playwrite";
+    src: url(Font/Playwrite.ttf) format('truetype');
+}
 @keyframes appear {
     from {
         opacity: 0;
@@ -89,7 +93,7 @@ body {
     margin: 20px 0;
 }
 .firstr img{
-    width: 550px;
+    width: 650px;
     border-radius: 30px;
 }
 
@@ -123,14 +127,15 @@ body {
     animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0% cover 27%;
-    color: black;
+    color: #4f380d;
     text-align: center;
     font-size: 25px;
     font-family: "Gowun Batang Bold";
 }
 h3 {
-    font-size: 30px;
-    font-family: "Bricolage";
+    font-size: 25px;
+    font-family: "Playwrite";
+    line-height: 40px;
 }
 .secondt, .secondb {
     margin: 0, auto;
