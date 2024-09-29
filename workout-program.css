@@ -79,6 +79,11 @@ body {
     font-family: Gowun Batang;
     padding: 10px;
 }
+hr {
+    background-color: rgb(191, 191, 191);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .onet {
     text-align: center;
     font-family: fantasy;
