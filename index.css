@@ -107,7 +107,7 @@ header {
     flex-grow: 1;
 }
 .title {
-    font-family: fantasy;
+    font-family: "Times New Roman";
     font-size: 45px;
     line-height: 60px;
     margin: 20px 0;
@@ -134,7 +134,7 @@ header {
     font-size: 25px;
 }
 .third-title {
-    font-family: fantasy;
+    font-family: "Times New Roman";
     font-size: 60px;
     text-align: center;
     color: rgb(225, 85, 40);
@@ -169,7 +169,7 @@ h3 {
 .secondth {
     margin-top: 100px;
     text-align: center;
-    font-family: fantasy;
+    font-family: "Times New Roman";
     font-size: 60px;
     padding-bottom: 70px;
     color: rgb(225, 85, 40);
@@ -224,7 +224,7 @@ h3 {
 }
 .fourtht {
     text-align: center;
-    font-family: fantasy;
+    font-family: "Times New Roman";
     font-size: 60px;
     padding-bottom: 50px;
     color: rgb(225, 85, 40);
@@ -238,7 +238,7 @@ h3 {
 }
 .onet {
     text-align: center;
-    font-family: fantasy;
+    font-family: "Times New Roman";
     font-size: 45px;
     padding: 20px;
     color: rgb(225, 85, 40)
@@ -262,7 +262,7 @@ td {
 
 .fiftht {
     text-align: center;
-    font-family: fantasy;
+    font-family: "Times New Roman";
     font-size: 60px;
     padding-top: 50px;
     padding-bottom: 50px;
