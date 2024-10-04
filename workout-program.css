@@ -1,82 +1,3 @@
-@font-face {
-    font-family: "Gowun Batang";
-    src: url(Font/GowunBatang-Regular.ttf) format('truetype');
-}
-@font-face {
-    font-family: "Gowun Batang Bold";
-    src: url(Font/GowunBatang-Bold.ttf) format('truetype');
-}
-@font-face {
-    font-family: "Bricolage";
-    src: url(Font/BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf) format('truetype');
-}
-@font-face {
-    font-family: "Playfair";
-    src: url(Font/PlayfairDisplay-VariableFont_wght.ttf) format('truetype');
-}
-@font-face {
-    font-family: "Playwrite";
-    src: url(Font/Playwrite.ttf) format('truetype');
-}
-@keyframes appear {
-    from {
-        opacity: 0;
-        scale:0.5;
-    }
-    to {
-        opacity: 1;
-        scale: 1;
-    }
-}
-::-webkit-scrollbar{
-    width: 15px;
-}
-::-webkit-scrollbar-track {
-    background-color: black;
-}
-::-webkit-scrollbar-thumb {
-    background: linear-gradient(grey, gray);
-    border-radius: 10px;
-}
-
-
-body {
-    background: linear-gradient(to right, black 25%, rgb(30, 28, 28) 55%, black 100%);
-    color: rgb(191, 191, 191);
-}
-header {
-    width:100%;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    box-sizing: border-box;
-}
-.logo img {
-    width: 350px;
-    border-radius: 20px;
-    margin-left: 40px;
-}
-.right {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.right a {
-    text-decoration: none;
-    font-size: 23px;
-    color: rgb(191, 191, 191);
-    margin: 0 15px;
-    font-family: poppins;
-    margin-right: 40px
-}
-.right a:hover {
-    border-bottom: 0.5mm solid rgb(225, 85, 40);
-}
-#currlink{
-    color: rgb(225, 85, 40);
-}
 .des {
     text-align: left;
     font-size: 20px;
@@ -95,12 +16,13 @@ hr {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.onet {
+#tabletitle {
     text-align: center;
-    font-family: "Times New Roman";
+    font-family: fantasy;
     font-size: 45px;
+    color: rgb(225, 85, 40);
     padding: 20px;
-    color: rgb(225, 85, 40)
+    margin-top: 30px;
 }
 th {
     padding: 15px;

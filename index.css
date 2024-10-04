@@ -1,99 +1,3 @@
-@font-face {
-    font-family: "Gowun Batang";
-    src: url(Font/GowunBatang-Regular.ttf) format('truetype');
-}
-@font-face {
-    font-family: "Gowun Batang Bold";
-    src: url(Font/GowunBatang-Bold.ttf) format('truetype');
-}
-@font-face {
-    font-family: "Bricolage";
-    src: url(Font/BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf) format('truetype');
-}
-@font-face {
-    font-family: "Playfair";
-    src: url(Font/PlayfairDisplay-VariableFont_wght.ttf) format('truetype');
-}
-@font-face {
-    font-family: "Playwrite";
-    src: url(Font/Playwrite.ttf) format('truetype');
-}
-@keyframes appear1 {
-    from {
-        opacity: 0;
-        scale:0.5;
-    }
-    to {
-        opacity: 1;
-        scale: 1;
-    }
-}
-@keyframes appear2 {
-    from {
-        opacity: 0;
-        transform: translateX(-100px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-::-webkit-scrollbar{
-    width: 15px;
-}
-::-webkit-scrollbar-track {
-    background-color: black;
-}
-::-webkit-scrollbar-thumb {
-    background: linear-gradient(grey, gray);
-    border-radius: 10px;
-}
-a.link:hover, a.link:active, a.link:visited {
-    color: rgb(225, 85, 40);
-}
-
-
-
-body {
-    background: linear-gradient(to right, black 25%, rgb(30, 28, 28) 55%, black 100%);
-    color: rgb(191, 191, 191)
-}
-
-
-header {
-    width:100%;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    box-sizing: border-box;
-}
-.logo img {
-    width: 350px;
-    border-radius: 20px;
-    margin-left: 40px;
-}
-.right {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.right a {
-    text-decoration: none;
-    font-size: 23px;
-    color: rgb(191, 191, 191);
-    margin: 0 15px;
-    font-family: 'Times New Roman';
-    margin-right: 40px
-}
-.right a:hover {
-    border-bottom: 0.5mm solid rgb(225, 85, 40);
-}
-#currlink{
-    color: rgb(225, 85, 40);
-}
-
 .first {
     width: 100%;
     height: 90%;
@@ -107,10 +11,10 @@ header {
     flex-grow: 1;
 }
 .title {
-    font-family: "Times New Roman";
+    font-family: fantasy;
     font-size: 45px;
     line-height: 60px;
-    margin: 20px 0;
+    margin: 20px auto;
 }
 .firstr img{
     width: 630px;
@@ -118,32 +22,39 @@ header {
 }
 
 
-.third {
-    width: 100%;
-    height: 60%;
-    display: flex;
+.third1{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 80px;
+    row-gap: 80px;
+    margin: 80px;
+    margin-top: 60px;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 5%;
-    box-sizing: border-box;
 }
-.thirdr {
-    flex-grow: 1;
-    padding: 40px;
-    font-family: "Gowun Batang";
-    font-size: 25px;
+.third2{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 80px;
+    row-gap: 80px;
+    margin: 80px;
+    margin-top: 60px;
+    align-items: center;
+
 }
-.third-title {
-    font-family: "Times New Roman";
-    font-size: 60px;
-    text-align: center;
-    color: rgb(225, 85, 40);
-}
-.thirdl img{
-    width: 550px;
+.thirdimage{
+    width: 400px;
     border-radius: 30px;
+    border: 5px solid rgb(225, 85, 40);
+}
+.thirddes {
+    font-size: 30px;
+    font-family: Gowun Batang;
 }
 
+
+.secondth{
+    margin: 60px;
+}
 .second1b,.second1t,.second2b,.second2t,.second3b,.second3t,.second4b,.second4t {
     animation: appear1 linear;
     animation-timeline: view();
@@ -152,6 +63,8 @@ header {
     text-align: center;
     font-size: 25px;
     font-family: "Gowun Batang Bold";
+    border-radius: 30px;
+    width: 330px;
 }
 h3 {
     font-size: 25px;
@@ -159,76 +72,48 @@ h3 {
     line-height: 40px;
 }
 .secondt, .secondb {
-    margin: 0, auto;
     width: 100%;
     height: 50%;
     display: flex;
     align-content: center;
     justify-content: space-between;
 }
-.secondth {
-    margin-top: 100px;
-    text-align: center;
-    font-family: "Times New Roman";
-    font-size: 60px;
-    padding-bottom: 70px;
-    color: rgb(225, 85, 40);
-}
 .second1t {
     background-color: #D33F49;
     height: 250px;
-    width: 350px;
-    border-radius: 30px;
 }.second2t {
     background-color: #D7C0D0;
     height: 350px;
-    width: 350px;
-    border-radius: 30px;
 }.second3t {
     background-color: #EFF0D1;
     height: 250px;
-    width: 350px;
-    border-radius: 30px;
 }
 .second4t {
     background-color: #77BA99;
     height: 350px;
-    width: 350px;
-    border-radius: 30px;
 }
 .second1b {
     background-color: #7798AB;
     height: 350px;
-    width: 350px;
-    border-radius: 30px;
-    margin-top:-150px;
+    margin-top:-110px;
 }.second2b {
     background-color: #9dd8a2;
     height: 250px;
-    width: 350px;
-    border-radius: 30px;
-    margin-top: -50px;
+    margin-top: -10px;
 }.second3b {
     background-color: #CB904D;
     height: 350px;
-    width: 350px;
-    border-radius: 30px;
-    margin-top: -150px;
+    margin-top: -110px;
 }
 .second4b {
     background-color: #EDB6A3;
     height: 250px;
-    width: 350px;
-    border-radius: 30px;
-    margin-top: -50px;
+    margin-top: -10px;
 }
-.fourtht {
-    text-align: center;
-    font-family: "Times New Roman";
-    font-size: 60px;
-    padding-bottom: 50px;
-    color: rgb(225, 85, 40);
-    margin-top: -100px;
+
+
+.fourthth {
+    margin-top: -90px;
 }
 .fourthdes {
     text-align: left;
@@ -238,7 +123,7 @@ h3 {
 }
 .onet {
     text-align: center;
-    font-family: "Times New Roman";
+    font-family: fantasy;
     font-size: 45px;
     padding: 20px;
     color: rgb(225, 85, 40)
@@ -259,15 +144,6 @@ td {
     font-family: Gowun Batang;
 }
 
-
-.fiftht {
-    text-align: center;
-    font-family: "Times New Roman";
-    font-size: 60px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    color: rgb(225, 85, 40);
-}
 
 /*
 img {
