@@ -104,12 +104,13 @@
     animation: appear1 linear;
     animation-timeline: view();
     animation-range: entry 0% cover 25%;
-    color: #4f380d;
+    color: rgb(227, 227, 227);
     text-align: center;
     font-size: 25px;
     font-family: "Gowun Batang Bold";
     border-radius: 30px;
     width: 330px;
+    border: 5px solid rgb(225, 85, 40);
 }
 h3 {
     font-size: 25px;
@@ -124,34 +125,34 @@ h3 {
     justify-content: space-between;
 }
 .second1t {
-    background-color: #D33F49;
+    background-color: #7c7b8b;
     height: 250px;
 }.second2t {
-    background-color: #D7C0D0;
+    background-color: #2C3539;
     height: 350px;
 }.second3t {
-    background-color: #EFF0D1;
+    background-color: #40404F;
     height: 250px;
 }
 .second4t {
-    background-color: #77BA99;
+    background-color: #848482;
     height: 350px;
 }
 .second1b {
-    background-color: #7798AB;
+    background-color: #64727b;
     height: 350px;
     margin-top:-110px;
 }.second2b {
-    background-color: #9dd8a2;
+    background-color: #778899;
     height: 250px;
     margin-top: -10px;
 }.second3b {
-    background-color: #CB904D;
+    background-color: #2b3339;
     height: 350px;
     margin-top: -110px;
 }
 .second4b {
-    background-color: #EDB6A3;
+    background-color: #8c92ac;
     height: 250px;
     margin-top: -10px;
 }
