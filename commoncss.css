@@ -1,3 +1,19 @@
+@font-face {
+    font-family: "Gowun Batang";
+    src: url(Font/GowunBatang-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: "Playfair";
+    src: url(Font/Playfair.ttf) format('truetype');
+}
+@font-face {
+    font-family: "Playwrite";
+    src: url(Font/Playwrite.ttf) format('truetype');
+}
+@font-face {
+    font-family: "Copperplate";
+    src: url(Font/Copperplate.ttf) format('truetype');
+}
 @keyframes appear1 {
     from {
         opacity: 0;
