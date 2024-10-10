@@ -185,6 +185,21 @@ h3 {
     animation: appear2 linear;
     animation-timeline: view();
     animation-range: entry 0% cover 30%;
+    position: relative;
+    border-radius: 20px;
+    border: 3px solid rgb(225, 85, 40);
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+i{
+    position: absolute;
+    background-color:rgb(225, 85, 40);
+    color: rgb(227, 227, 227);
+    font-size: 90px;
+    border-radius: 100%;
+    top: -30px;
+    right: -30px;
 }
 th {
     padding: 15px;
