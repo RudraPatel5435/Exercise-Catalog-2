@@ -11,8 +11,7 @@
     text-align: center;
     font-size: 30px;
     font-family: "Gowun Batang";
-    padding: 20px;
-
+    margin: 80px 0 40px 0;
 }
 hr {
     background-color: rgb(191, 191, 191);
@@ -39,9 +38,6 @@ td {
     font-size: 20px;
     font-family: "Gowun Batang";
     border-radius: 10px;
-    border: 3px solid rgb(191, 191, 191);
+    border: 3px solid rgb(170, 170, 170);
     padding: 5px;
-}
-a.link:hover, a.link:active, a.link:visited {
-    color: rgb(225, 85, 40);
 }

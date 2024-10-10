@@ -88,4 +88,34 @@ header {
 }
 a.link:hover, a.link:active, a.link:visited, a.link {
     color: rgb(225, 85, 40);
+    text-decoration: none;
+}
+.end {
+    background-color:rgb(225, 85, 40);
+    border: 1px solid rgb(225, 85, 40);
+    border-radius: 30px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 30px;
+    margin-top: 10px;
+}
+footer img {
+    display: block;
+}
+footer i {
+    font-size: 30px;
+}
+a.link1:active, a.link1:visited, a.link1 {
+    color: rgb(191, 191, 191);
+    text-decoration: none;
+}
+a.link1:hover{
+    color: rgb(225, 85, 40);
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    font-weight: bold;
 }
