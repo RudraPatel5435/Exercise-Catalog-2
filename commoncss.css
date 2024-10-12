@@ -98,12 +98,9 @@ a.link:hover, a.link:active, a.link:visited, a.link {
 footer{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content:space-between;
     font-size: 30px;
-    margin-top: 10px;
-}
-footer img {
-    display: block;
+    margin: 40px 40px 40px 40px;
 }
 footer i {
     font-size: 30px;
@@ -119,3 +116,62 @@ a.link1:hover{
     padding: 10px;
     font-weight: bold;
 }
+
+.wrapper{
+    margin-left: -150px;
+}
+.wrapper .button {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-decoration: none;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover {
+    width: 170px;
+  }
+  .wrapper .button .icon {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    color: #000;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1):hover .icon {
+    background: #1DA1F2;
+  }
+  .wrapper .button:nth-child(2):hover .icon {
+    background: #333;
+  }
+  .wrapper .button .icon i {
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover .icon i {
+    color: #fff;
+  }
+  .wrapper .button span {
+    font-size: 20px;
+    font-family: Playfair;
+    font-weight: 700;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1) span {
+    color: #1DA1F2;
+  }
+  .wrapper .button:nth-child(2) span {
+    color: #333;
+  }
