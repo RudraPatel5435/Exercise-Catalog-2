@@ -200,6 +200,7 @@ h3 {
     border-radius: 100%;
     top: -30px;
     right: -30px;
+    cursor: pointer;
 }
 th {
     padding: 15px;
