@@ -117,8 +117,8 @@
     border: 5px solid rgb(225, 85, 40);
 }
 h3 {
-    font-size: 25px;
-    font-family: Playwrite;
+    font-size: 28px;
+    font-family: ProtestStrike;
     line-height: 40px;
 }
 .secondt, .secondb {
@@ -205,7 +205,7 @@ h3 {
 th {
     padding: 15px;
     font-size: 25px;
-    font-family: Playwrite;
+    font-family: ProtestStrike;
 }
 td {
     text-align: center;
@@ -214,23 +214,12 @@ td {
 }
 
 
-
 .fifthtitle{
     margin-top: 100px;
 }
-
-
-
-
-/*
-img {
-    filter: gray;
-    -webkit-filter: grayscale(1);
-    -webkit-transition: all .5s ease-in-out;  
-  }
-img:hover {
-  filter: none;
-    -webkit-filter: grayscale(0);
-    -webkit-transform: scale(1.01);
-  }
-    */
+.des {
+    text-align: left;
+    font-size: 20px;
+    font-family: "Gowun Batang";
+    padding: 10px;
+}
