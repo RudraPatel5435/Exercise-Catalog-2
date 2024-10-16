@@ -27,6 +27,10 @@ form {
     font-size: 30px;
     margin-bottom: 30px;
 }
+.name:hover, .email:hover, .prob:hover, .file:hover, .mess:hover, .send input:hover{
+    box-shadow: -5px 10px 7px rgba(255, 255, 255, 0.3);
+    transition: all .2s ease-in-out;
+}
 .probrad{
     display: inline;
     font-size: 20px;
@@ -37,5 +41,16 @@ input, textarea{
     margin-top: 20px;
     background-color: black;
     color: rgb(255, 255, 255);
+    font-family: Gill Sans;
+}
+.send{
+    margin-left: 10px;
+}
+.send input{
+    font-size: 35px;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(225, 85, 40);
+    font-weight: 600;
     font-family: Gill Sans;
 }
