@@ -24,16 +24,22 @@ hr {
     font-size: 45px;
     color: rgb(225, 85, 40);
     padding: 20px;
-    margin-top: 80px;
+    margin-top: 80px;;
 }   
+tr:nth-child(even) {
+   background-color: rgba(191, 191, 191, 0.3);
+}
 th {
     padding: 15px;
     font-size: 25px;
     font-family: ProtestStrike;
     border-radius: 20px;
+    color: white;
     border: 3px solid rgb(225, 85, 40);
+    background-color: rgba(225, 85, 40, 0.3);
 }
 td {
+    color: white;
     text-align: center;
     font-size: 20px;
     font-family: "Gowun Batang";

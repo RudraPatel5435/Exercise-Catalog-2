@@ -115,6 +115,7 @@ a.link1:hover{
     border-radius: 30px;
     padding: 10px;
     font-weight: bold;
+    margin-right: -28px;
 }
 
 .wrapper{
