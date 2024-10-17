@@ -28,7 +28,7 @@ form {
     margin-bottom: 30px;
 }
 .name:hover, .email:hover, .prob:hover, .file:hover, .mess:hover, .send input:hover{
-    box-shadow: -5px 10px 7px rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.8);
     transition: all .2s ease-in-out;
 }
 .probrad{
