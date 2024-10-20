@@ -46,7 +46,7 @@
 }
 body {
     background: linear-gradient(to right, black 25%, rgb(30, 28, 28) 55%, black 100%);
-    color: rgb(191, 191, 191)
+    color: rgb(191, 191, 191);
 }
 header {
     width:100%;
