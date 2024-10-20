@@ -54,3 +54,8 @@ input, textarea{
     font-weight: 600;
     font-family: Gill Sans;
 }
+.red {
+    font-size: 25px;
+    display: inline;
+    color: red;
+}
